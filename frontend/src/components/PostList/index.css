@@ -1,0 +1,69 @@
+.post-list {
+    padding: 20px;
+  }
+  
+  .post-list h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .post-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items to the next line */
+    gap: 20px; /* Adds spacing between boxes */
+    justify-content: center; /* Centers the items horizontally */
+  }
+  
+  .post-box {
+    background-color: #f9f9f9; /* Light background color for boxes */
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    width: 300px; /* Fixed width for each box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .post-box:hover {
+    transform: scale(1.02); /* Slightly enlarge the box on hover */
+  }
+  
+  .post-link {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Use the text color of the parent */
+  }
+  
+  .post-box h3 {
+    margin-top: 0; /* Remove top margin */
+  }
+  
+  .post-box p {
+    color: #666; /* Darker color for description text */
+  }
+  
+  .post-actions {
+    margin-top: 10px; /* Space between content and buttons */
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+  }
+  
+  
+  
+  .update{
+    background-color:#666;
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  .delete{
+    background-color: red;
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
